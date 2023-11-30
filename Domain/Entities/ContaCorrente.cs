@@ -7,9 +7,9 @@ namespace Questao5.Domain.Entities
 {
     public class ContaCorrente
     {
-        public string id {get; set;}
-        public int numero {get; set;}
-        public string nome {get; set;}
-        public int ativo {get; set;}
+        public string Id {get; set;}
+        public int Numero {get; set;}
+        public string Nome {get; set;}
+        public int Ativo {get; set;}
     }
 }
