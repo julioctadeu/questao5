@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace Questao5.Domain.Entities
 {
@@ -11,5 +8,6 @@ namespace Questao5.Domain.Entities
         public string IdContacorrente { get; set; }
         public string DataMovimento { get; set; }
         public string TipoMovimento { get; set; }
+        public string Valor { get; set; }
     }
 }
